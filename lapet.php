@@ -40,7 +40,7 @@ echo "\n";
 echo "\e[96m[?] Masukkan Nomor HP Anda (62/1) : ";
 $nope = trim(fgets(STDIN));
 $register = register($nope);
-if ($register == false)
+if ($register == true)
     {
     echo "\e[91m[x] Nomor Telah Terdaftar\n";
     }
@@ -140,14 +140,3 @@ if ($register == false)
 
 ?>
 © 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
